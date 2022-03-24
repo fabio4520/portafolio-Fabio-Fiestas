@@ -1,0 +1,68 @@
+.article {
+  font-size: 1.8rem;
+}
+
+.article h1 {
+  font-family: var(--font-secondary);
+  font-weight: 600;
+  font-size: 3.6rem;
+  line-height: 4rem;
+  color: var(--gray-900);
+}
+
+.article p {
+  font-family: var(--font-primary);
+  margin-block-start: 24px;
+  font-weight: 400;
+  font-size: 1.8rem;
+  line-height: 3.2rem;
+  color: var(--gray-700);
+}
+
+.article h2 {
+  font-family: var(--font-secondary);
+  margin-block-start: 56px;
+  font-weight: 600;
+  font-size: 3rem;
+  line-height: 4rem;
+  color: var(--gray-900);
+}
+
+.article ul {
+  font-family: var(--font-primary);
+  font-weight: 400;
+  font-size: 1.8rem;
+  line-height: 3.2rem;
+  color: var(--gray-700);
+  padding-inline-start: 16px;
+}
+.article ul li {
+  padding-inline-start: 0.8rem;
+  margin-block-end: 1rem;
+}
+
+.blockquote {
+  font-family: var(--font-primary);
+  font-style: italic;
+  font-weight: 500;
+  font-size: 1.8rem;
+  line-height: 3.2rem;
+  margin-block-start: 24px;
+  background-color: var(--stone-50);
+  border-left: 4px solid var(--blue-800);
+  padding-inline-start: 1.8rem;
+}
+
+.figure {
+  margin-block-start: 3.2rem;
+  background-color: var(--white);
+  border-radius: 0.8rem;
+}
+
+.figure figcaption {
+  font-family: var(--font-primary);
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  color: var(--gray-500);
+}

@@ -1,0 +1,40 @@
+.header {
+  background-color: var(--gray-100);
+}
+
+.header__logo {
+  color: var(--gray-900);
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.navbar--links {
+  display: flex;
+  align-items: center;
+  gap: 0.5em;
+  padding: 0;
+  flex-wrap: wrap;
+}
+
+.navbar--links .link {
+  text-decoration: none;
+  color: var(--blue-oxford);
+  padding: 0.8rem 1.2rem;
+  border-radius: 4px;
+}
+
+.navbar--links .link:hover {
+  background: #fff;
+  color: var(--blue-oxford);
+  box-shadow: 0 2px 2px rgba(83, 100, 255, 0.32);
+}
+
+.navbar--links .link:focus {
+  outline: 2px solid var(--blue-800);
+  outline-offset: 2px;
+}
