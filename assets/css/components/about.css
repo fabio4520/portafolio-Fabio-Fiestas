@@ -1,0 +1,43 @@
+.about--card {
+  display: flex;
+  /* flex-wrap: wrap; */
+  flex-direction: row;
+  gap: 1rem;
+  margin-block-start: 16px;
+}
+.about--card svg {
+  max-width: 25.6px;
+  max-height: 25.6px;
+  fill: var(--pink-700);
+  margin: 3.2px 0 0 3.2px;
+}
+.header-grid h2 {
+  margin-block-end: 16px;
+}
+
+.container-grid-about {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 10px;
+}
+
+.grid--card-info {
+  max-width: 432px;
+  margin-inline-start: 19.2px;
+}
+.grid--card-info p {
+  margin-block-start: 12px;
+}
+.grid--card-info h3 {
+  color: var(--gray-900);
+}
+
+.container-grid figure {
+  max-width: 320px;
+}
+.container-grid-about figure img {
+  width: 319px;
+  height: 220px;
+  object-fit: cover;
+  border-radius: 8px;
+}
