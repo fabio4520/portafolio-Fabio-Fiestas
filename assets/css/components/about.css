@@ -41,3 +41,10 @@
   object-fit: cover;
   border-radius: 8px;
 }
+
+.container-grid-about figure img:hover {
+  border-radius: 6px;
+  transition: all 0.4s ease;
+  transform: scale(1.03);
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.6);
+}
