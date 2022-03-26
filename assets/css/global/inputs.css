@@ -103,4 +103,5 @@
   color: var(--blue-500);
   border: 1px solid var(--blue-300);
   font-weight: 400;
+  cursor: pointer;
 }

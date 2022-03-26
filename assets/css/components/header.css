@@ -11,6 +11,7 @@
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
+  height: 72px;
 }
 
 .navbar--links {
@@ -37,4 +38,49 @@
 .navbar--links .link:focus {
   outline: 2px solid var(--blue-800);
   outline-offset: 2px;
+}
+
+.menu-btn {
+  color: var(--black);
+  font-size: 20px;
+  cursor: pointer;
+  display: none;
+}
+#click {
+  display: none;
+}
+/* QUERIES */
+
+@media (max-width: 940px) {
+  .navbar ul {
+    position: fixed;
+    text-align: center;
+    top: 72px;
+    left: -100%;
+    background-color: var(--black);
+    height: 100vh;
+    width: 100%;
+    display: block;
+    margin: 0;
+    transition: all 0.4s ease;
+  }
+  .navbar ul li {
+    margin: 32px;
+  }
+  .navbar--links .link {
+    color: white;
+  }
+
+  .button--primary {
+    /* padding: 0; */
+    background-color: var(--black);
+    /* width: 70px; */
+  }
+
+  .menu-btn {
+    display: block;
+  }
+  #click:checked ~ ul {
+    left: 0%;
+  }
 }
