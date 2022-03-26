@@ -1,0 +1,58 @@
+.info a {
+  margin-block-start: 40px;
+}
+.feature-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 15px;
+  margin-block-start: 48px;
+  margin-block-end: 60px;
+}
+
+.figure {
+  margin-inline-start: 32px;
+}
+.figure img:hover {
+  border-radius: 6px;
+  transition: all 0.4s ease;
+  transform: scale(1.05);
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.6);
+}
+.feature-card {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  max-width: 320px;
+}
+.feature-card span {
+  margin-block-start: 20px;
+}
+
+.feature-card p {
+  margin-block-start: 8px;
+}
+
+.feature-card svg {
+  width: 33px;
+  height: 33px;
+  background-color: var(--blue-800);
+  fill: white;
+  border-radius: 8px;
+  padding: 8px;
+}
+
+.social-icons {
+  display: flex;
+  flex-wrap: wrap;
+}
+.social-icons i {
+  font-size: 2.2rem;
+  color: var(--blue-900);
+}
+.social-icons i:hover {
+  background-color: var(--blue-800);
+  color: var(--white);
+  padding: 4px;
+  transition: all 0.4s ease;
+  border-radius: 10px;
+}

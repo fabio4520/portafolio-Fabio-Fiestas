@@ -43,6 +43,9 @@
   margin-block-start: 144px;
   margin-block-end: 144px;
 }
+.section-project {
+  padding: 64px 16px;
+}
 
 /* GRID */
 .container-grid {

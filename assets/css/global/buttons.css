@@ -56,7 +56,9 @@
 .button--primary {
   background-color: var(--blue-oxford);
   color: var(--white);
+  max-width: 200px;
 }
+
 .button--primary:hover {
   background: #fff;
   color: var(--blue-oxford);
