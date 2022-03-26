@@ -71,3 +71,9 @@
   padding-block-start: 48px;
   padding-block-end: 48px;
 }
+
+/* CENTER */
+.center {
+  justify-content: center;
+  text-align: center;
+}
